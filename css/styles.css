@@ -9,7 +9,14 @@ body {
 a {text-decoration: none}
 /* Header */
 
-
+.section-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
 
 .logo {
@@ -31,6 +38,7 @@ a {text-decoration: none}
 .nav-link {
     color: #2e2f42;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     font-weight: 400;
     text-decoration: none;
 }
@@ -80,6 +88,7 @@ a {text-decoration: none}
     background-color: #4D5AE5;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -114,6 +123,15 @@ a {text-decoration: none}
     color: #434455;
 }
 /* Our Team */
+
+.team-section {
+    background-color: #F4F4FD
+}
+
+.team-item {
+    background-color: #FFFFFF
+}
+
 .team-title {
     font-weight: 500;
         font-size: 20px;
